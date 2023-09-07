@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;    
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1368&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgb(2, 6, 22);
+
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+
+}
+
+nav a {
+    padding: 20px;
+}
+
+
+
+.container {
+  position: relative;
+}
+
+#texto {
+  position: absolute;
+  font-size: 32px;
+  left: 50%;
+  top: 250px;
+}
+
+
+
+#pinheiros {
+    width: 100%;
+    height: 570px;
+}
+
+section{
+    background-color: aliceblue;
+}
+
+#previa{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(72, 184, 212)
+    
+}
+
+#previa div{
+    width: 440px;
+}
+
+.card img{
+    width: 400px;
+    height: 300px;
+}
+
+.card{
+
+    background-image: linear-gradient(to right, rgb(100, 100, 197), rgb(240, 217, 89) );
+    display: block;
+    justify-content: center;
+    border: 1px solid rgb(2, 6, 22);
+    width: 400px;
+    /* height: 400px; */
+}
+
+#espaco{
+    width: 500px;
+    height: 500px;
+   
+}
+
+footer{
+    /* background-color: rgb(2, 6, 22);    */
+    background-image: linear-gradient(to top, #020E2D, #0c2d80, #426edd);
+    
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(44, 139, 139);
+}
